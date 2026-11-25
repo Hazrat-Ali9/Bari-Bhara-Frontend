@@ -56,7 +56,7 @@ _Add screenshots to `docs/screenshots/` and link them here: owner dashboard, ren
 | LLM | Google **Gemini** through its OpenAI-compatible API (`openai` SDK). Any OpenAI-compatible provider works by changing `.env` |
 | Embeddings / RAG | Gemini `gemini-embedding-001` at 768 dimensions (multilingual, handles Bangla), pgvector HNSW cosine index |
 | MCP | Official `mcp` SDK (v2 `MCPServer`), streamable HTTP at `/mcp` and stdio |
-| Frontend | React 19, TypeScript, Vite, Tailwind CSS, TanStack Query (see [frontend/README.md](README.md)) |
+| Frontend | React 19, TypeScript, Vite, Tailwind CSS, TanStack Query (see [README.md](README.md)) |
 | Deploy | Docker, docker compose, Render (Blueprint in [render.yaml](render.yaml)) |
 
 ## Architecture
