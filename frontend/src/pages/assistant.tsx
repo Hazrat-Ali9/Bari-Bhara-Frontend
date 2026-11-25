@@ -8,7 +8,7 @@ import { useAuth } from '@/features/auth/auth-context'
 import { api } from '@/lib/api/endpoints'
 import type { ChatMessage, ChatSource, ChatToolCall, Role } from '@/lib/types'
 import { cn, initials } from '@/lib/utils'
-
+// assistant 
 interface UiMessage extends ChatMessage {
   tool_calls?: ChatToolCall[]
   sources?: ChatSource[]
