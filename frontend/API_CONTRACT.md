@@ -1,4 +1,4 @@
-# BariBhara — API contract used by the frontend
+# BariBhara — API contract used by the frontend 
 
 This is what the React app sends and expects. Build the backend to match it, or
 change `src/lib/types.ts` and `src/lib/api/endpoints.ts` if you decide on a different shape.
