@@ -3,7 +3,7 @@ import { useQueryClient } from '@tanstack/react-query'
 import { setUnauthorizedHandler, tokenStore } from '@/lib/api/client'
 import { api } from '@/lib/api/endpoints'
 import type { User } from '@/lib/types'
-
+// auth context
 interface AuthState {
   user: User | null
   loading: boolean
