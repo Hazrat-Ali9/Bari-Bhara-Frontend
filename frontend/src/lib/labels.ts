@@ -1,6 +1,6 @@
 import type { BadgeTone } from '@/components/ui/badge'
 import type { FlatStatus, MaintenanceCategory, MaintenancePriority, MaintenanceStatus, PaymentMethod, PaymentStatus, Role } from '@/lib/types'
-
+// labels
 export const AREAS = ['Mirpur', 'Dhanmondi', 'Uttara', 'Mohammadpur', 'Bashundhara', 'Gulshan', 'Banani', 'Badda', 'Rampura', 'Khilgaon']
 
 export const flatStatusTone: Record<FlatStatus, BadgeTone> = { vacant: 'green', occupied: 'blue', maintenance: 'amber' }
